@@ -9,9 +9,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <style>
+        .cube-Move{
+            position: absolute;
+            top: 0;
+            left: 0;
+            animation-name: example;
+            animation: 4s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes example {
+            from {top: 0px;}
+            to {top: 200px; background-color: blue;}
+        }
+        .lol{
+            background-color: black;
+        }
+    </style>
   </head>
   <body>
 <h1>Use Arrow keys to move the Cube</h1>
+
 <div class="square"></div>
   </body>
 </html>
